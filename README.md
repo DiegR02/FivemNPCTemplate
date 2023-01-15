@@ -1,8 +1,6 @@
 # FivemNPCTemplate
 A FiveM Non Playable Character (NPC) generator template. + Animations and weapons 
 
-************************************
-
     -- dict= the animation dictionary that you want to use
     -- anim= the animation that you want to display
     -- List of animation dictionaries and animations: https://github.com/criminalist/Animations-list-GTA5-Fivem/blob/master/anim-list.txt
@@ -48,3 +46,5 @@ A FiveM Non Playable Character (NPC) generator template. + Animations and weapon
         -- TaskPlayAnim() is used to display the animation selected before
         TaskPlayAnim(ped, Sit.dict, Sit.anim, 8.0, -8, -1, 1, 0, false, false, false)
     end)
+    
+Everytime you need to add a new NPC, you only have to repeat the same code with the new changes that you want
